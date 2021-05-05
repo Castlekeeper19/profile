@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poiret+One&display=swap');
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
-
+/*something new*/
 
 body {
   background-color: #0B3954;
@@ -20,6 +20,14 @@ h1, h2, h3 {
   line-height: 24px;
 }
 
+h3 {
+  background-color: #FF6663;
+  color: #0B3954;
+  padding: 12px 12px 12px 12px;
+  border-radius: 5px;
+  margin-top: 0px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.3);
+}
 
 a {
   color: ;
@@ -63,7 +71,7 @@ p {
 }
 
 .img-circle {
-  border-radius: 25%;
+  border-radius: 33%;
   width: 200px;
   height: 200px;
 }
@@ -72,6 +80,9 @@ p {
   border-radius: 5%;
   height: 200px;
   padding: 5px;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 .list-inline > li {
@@ -81,6 +92,12 @@ p {
 
 .list-inline a {
   font-size: 24px;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
 }
 
 @media (max-width: 960px) {
